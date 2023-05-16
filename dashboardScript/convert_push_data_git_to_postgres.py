@@ -2,10 +2,7 @@
 
 #Importing Libraries
 import pandas as pd
-import json, os, requests
 import psycopg2
-import plotly.express as px
-import streamlit as st
 
 # Inserting data into postgresSQL
 def insert_values(df,table_name,conn,curr):
