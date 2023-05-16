@@ -3,6 +3,7 @@
 #Importing Libraries
 import pandas as pd
 import psycopg2
+import json, os
 
 # Inserting data into postgresSQL
 def insert_values(df,table_name,conn,curr):
